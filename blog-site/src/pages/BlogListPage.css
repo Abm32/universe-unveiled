@@ -4,4 +4,23 @@ body {
     background-position: center center; /* center the image vertically and horizontally */
     background-repeat: no-repeat; /* prevent the image from repeating */
     background-attachment: fixed;
+}
+.blog-preview {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* Add a blur effect */
   }
+
+@media screen {
+    .inner-container {
+        width: 76vw;
+        max-width: 1000px;
+    }
+}
