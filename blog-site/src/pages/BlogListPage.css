@@ -1,0 +1,7 @@
+body {
+    background-image: url('bgcolr.jpg');
+    background-size: auto; /* adjust the image to cover the entire element */
+    background-position: center center; /* center the image vertically and horizontally */
+    background-repeat: no-repeat; /* prevent the image from repeating */
+    background-attachment: fixed;
+  }
