@@ -18,8 +18,8 @@
  }
 
  .header-container:hover {
-  background-color: #FFFFFF;
-  color: #4b71b7;
+  background-color: #333333;
+  color: #FFFFFF;
 }
   
  .header-sub{
@@ -44,6 +44,7 @@
   font-weight: 200;
   color: #fff;
   text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
  }
   
  /* Index Page */

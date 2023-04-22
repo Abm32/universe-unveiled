@@ -6,10 +6,11 @@
         text-decoration: none;
     }
     .header-buttons {
-        font-size: 14px;
-        font-weight: 200;
+        font-size: 20px;
+        font-weight: 400;
         color: #fff;
         text-decoration: none;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     
 }
