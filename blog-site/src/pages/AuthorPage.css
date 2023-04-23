@@ -7,6 +7,27 @@
     font-size: 16px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
-
+}
+.heros-image{
+    width: 300px;
+    height: 300px;
+}
+.inner-containers{
+    width: 90vw;
+    max-width: 1000px;
+    display: contents;
+}
+.blog-contents{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+@media screen {
+    .page-title{
+        margin-left: 2px;
+    }
+    .blog-contents {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
 }

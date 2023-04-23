@@ -23,4 +23,7 @@ body {
         width: 76vw;
         max-width: 1000px;
     }
+    .blog-list {
+        margin-right: 38px;
+    }
 }

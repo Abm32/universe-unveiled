@@ -1,5 +1,6 @@
 /* Header */
- 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bruno+Ace+SC&family=Instrument+Serif&family=Pacifico&display=swap');
+
 .header-container{
   width: 100vw;
   height: 70px;
@@ -18,7 +19,7 @@
  }
 
  .header-container:hover {
-  background-color: #333333;
+  background-color: #4958c5;
   color: #FFFFFF;
 }
   
@@ -78,34 +79,39 @@
  }
  .blog-preview{
   width: 100%;
-  background-color: #fff;
+  background-color: #b8b6ff;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
  }
  .blog-title{
   font-size: 20px;
   font-weight: 200;
   color: #000;
   text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Pacifico', cursive;
  }
  .blog-date{
   font-size: 15px;
   font-weight: 200;
   color: #000;
   text-decoration: none;
+  font-family: 'Instrument Serif', serif;
  }
  .blog-author{
   font-size: 15px;
   font-weight: 200;
   color: #000;
   text-decoration: none;
+  font-family: 'Bruno Ace SC', cursive;
  }
   
  .blog-preview:hover{
-  background-color: #32a852;
+  background-color: #746ed3;
   color: #fff;
   box-shadow: 0 0 10px 0.5 #000;
  }
