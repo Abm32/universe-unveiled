@@ -26,4 +26,8 @@ body {
     .blog-list {
         margin-right: 38px;
     }
+    .blog-preview {
+        background-color: #b8b6ff;
+    }
+
 }

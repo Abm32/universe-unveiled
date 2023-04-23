@@ -1,6 +1,6 @@
 export const my_blogs = {
     "blog_1":{
-      "title":"Intergalactic Adventures",
+      "title":"Abhi and Ami's Intergalactic Adventures",
       "author":"Abhimanyu R B",
       "date":"2023-04-22",
       "title1":"Prologue ",
