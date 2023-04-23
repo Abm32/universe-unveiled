@@ -1,4 +1,4 @@
-@media screen {
+@media(max-width: 576px) {
     .header-title {
         font-size: 20px;
         font-weight: 400;
@@ -10,14 +10,24 @@
         font-weight: 400;
         color: #fff;
         text-decoration: none;
+        margin-left: 20px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
-    .header-buttons1 {
-        font-size: 20px;
-        font-weight: 400;
-        color: #fff;
-        text-decoration: none;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        margin-right: -59px;
-    }
+    
+    .header-container{
+        width: 100vw;
+        height: 70px;
+        background-color: #4b71b7;
+        color: #FFFFFF;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+       }
 }
